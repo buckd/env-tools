@@ -20,7 +20,7 @@
 # Aliases for different git log configurations (swiped from rtzoeller)
 [alias]
 	dtc = difftool -y --tool=compareit
-	dtl = difftool -y --tool=lvcompare -- '*.vi' '*.vit' '*.vim' '*.ctl' '*.ctt' '*.llb'
+	dtl = difftool -y --tool=lvcompare
 	dtw = difftool -y --tool=winmerge
 
 	lg = !"git lg1"
